@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Libs/CoreAPI/CoreAPI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Libs/CoreAPIInterface/CoreAPIInterface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Libs/JokeGenerator/JokeGenerator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Libs/JokeGeneratorInterface/JokeGeneratorInterface.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:jokes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

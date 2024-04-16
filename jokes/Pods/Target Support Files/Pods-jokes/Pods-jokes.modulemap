@@ -1,0 +1,6 @@
+framework module Pods_jokes {
+  umbrella header "Pods-jokes-umbrella.h"
+
+  export *
+  module * { export * }
+}
