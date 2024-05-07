@@ -9,8 +9,6 @@ target 'jokes' do
 
   # Pods para o projeto jokes
   pod 'SnapKit'
-  pod 'CoreAPI', :path => 'Libs/CoreAPI'
-  pod 'JokeGenerator', :path => 'Libs/JokeGenerator'
 
   target 'jokesTests' do
     inherit! :search_paths
@@ -20,30 +18,4 @@ target 'jokes' do
     inherit! :search_paths
   end
 
-end
-
-target 'CoreAPI' do
-  project '/Users/joaovictor/Documents/Mentoria/jokes/Libs/CoreAPI/CoreAPI.xcodeproj'
-  pod 'CoreAPI', :path => 'Libs/CoreAPI'
-end
-
-target 'CoreAPIInterface' do
-  project '/Users/joaovictor/Documents/Mentoria/jokes/Libs/CoreAPIInterface/CoreAPIInterface.xcodeproj'
-  pod 'CoreAPIInterface', :path => 'Libs/CoreAPIInterface'
-end
-
-target 'JokeGenerator' do
-  project '/Users/joaovictor/Documents/Mentoria/jokes/Libs/JokeGenerator/JokeGenerator.xcodeproj'
-  pod 'JokeGenerator', :path => 'Libs/JokeGenerator'
-  pod 'SnapKit'
-
-  target 'JokeGeneratorTests' do
-    inherit! :search_paths
-  end
-
-end
-
-target 'JokeGeneratorInterface' do
-  project '/Users/joaovictor/Documents/Mentoria/jokes/Libs/JokeGeneratorInterface/JokeGeneratorInterface.xcodeproj'
-  pod 'JokeGeneratorInterface', :path => 'Libs/JokeGeneratorInterface'
 end

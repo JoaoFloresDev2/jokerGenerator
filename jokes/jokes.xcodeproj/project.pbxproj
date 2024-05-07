@@ -7,17 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F9B7699A11CA11F80640C2F /* Pods_jokesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1181440FB2743565EFD6274A /* Pods_jokesTests.framework */; };
-		403573C3D53F5B9D59928A08 /* Pods_jokesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A84CA9511AAA0E90B52E0A /* Pods_jokesUITests.framework */; };
-		52F4C21FBFDE743F0F34B433 /* Pods_jokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA9F8B7417ECEEB1E946AC0 /* Pods_jokes.framework */; };
-		BA4C08DC2B6881D90018A06D /* CoreAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C08DB2B6881D90018A06D /* CoreAPI.framework */; };
-		BA4C08DD2B6881D90018A06D /* CoreAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C08DB2B6881D90018A06D /* CoreAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BA4C08E22B68836D0018A06D /* CoreAPIInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C08E12B68836D0018A06D /* CoreAPIInterface.framework */; };
-		BA4C08E32B68836D0018A06D /* CoreAPIInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C08E12B68836D0018A06D /* CoreAPIInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BA93085A2B8525E800AA3D5E /* JokeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9308592B8525E800AA3D5E /* JokeGenerator.framework */; };
-		BA93085B2B8525E800AA3D5E /* JokeGenerator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9308592B8525E800AA3D5E /* JokeGenerator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BA93085D2B8525EC00AA3D5E /* JokeGeneratorInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA93085C2B8525EC00AA3D5E /* JokeGeneratorInterface.framework */; };
-		BA93085E2B8525EC00AA3D5E /* JokeGeneratorInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA93085C2B8525EC00AA3D5E /* JokeGeneratorInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0AA67C935726F05848CB8AFA /* Pods_jokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5735A27D8857F85AF05AEF7E /* Pods_jokes.framework */; };
+		27188435940DD73F74CB0C3D /* Pods_jokesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FDAD7F3CB6180AD639333E2 /* Pods_jokesTests.framework */; };
+		60ECD0A57ED9D72E25209B33 /* Pods_jokesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3DFB7525F0B68B412EB7AD4 /* Pods_jokesUITests.framework */; };
 		BACD43772B6035A400602915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACD43762B6035A400602915 /* AppDelegate.swift */; };
 		BACD43792B6035A400602915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACD43782B6035A400602915 /* SceneDelegate.swift */; };
 		BACD437E2B6035A400602915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACD437C2B6035A400602915 /* Main.storyboard */; };
@@ -52,10 +44,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BA4C08E32B68836D0018A06D /* CoreAPIInterface.framework in Embed Frameworks */,
-				BA93085B2B8525E800AA3D5E /* JokeGenerator.framework in Embed Frameworks */,
-				BA93085E2B8525EC00AA3D5E /* JokeGeneratorInterface.framework in Embed Frameworks */,
-				BA4C08DD2B6881D90018A06D /* CoreAPI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,19 +51,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1181440FB2743565EFD6274A /* Pods_jokesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		311525BF8546626D338A9246 /* Pods-jokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes.debug.xcconfig"; path = "Target Support Files/Pods-jokes/Pods-jokes.debug.xcconfig"; sourceTree = "<group>"; };
-		39113F6E40A49866CE73053B /* Pods-jokes-jokesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes-jokesUITests.debug.xcconfig"; path = "Target Support Files/Pods-jokes-jokesUITests/Pods-jokes-jokesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FDA477D1404FFB66B6E8DCD /* Pods-jokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes.release.xcconfig"; path = "Target Support Files/Pods-jokes/Pods-jokes.release.xcconfig"; sourceTree = "<group>"; };
+		5735A27D8857F85AF05AEF7E /* Pods_jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FDAD7F3CB6180AD639333E2 /* Pods_jokesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		980C51E152AE98D840A504D9 /* Pods-jokesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokesTests.release.xcconfig"; path = "Target Support Files/Pods-jokesTests/Pods-jokesTests.release.xcconfig"; sourceTree = "<group>"; };
-		A5934A78879CD1030FE452A4 /* Pods-jokes-jokesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokes-jokesUITests.release.xcconfig"; path = "Target Support Files/Pods-jokes-jokesUITests/Pods-jokes-jokesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A7A84CA9511AAA0E90B52E0A /* Pods_jokesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA4C08DB2B6881D90018A06D /* CoreAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA4C08E12B68836D0018A06D /* CoreAPIInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreAPIInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA72D79B2B85235100AB0147 /* JokeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JokeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA72D79C2B85235100AB0147 /* JokeGeneratorInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JokeGeneratorInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9308592B8525E800AA3D5E /* JokeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JokeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA93085C2B8525EC00AA3D5E /* JokeGeneratorInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JokeGeneratorInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACD43732B6035A400602915 /* jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACD43762B6035A400602915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BACD43782B6035A400602915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +69,7 @@
 		BACD43972B6035A700602915 /* jokesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesUITests.swift; sourceTree = "<group>"; };
 		BACD43992B6035A700602915 /* jokesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jokesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C2D1B5E2CAEBE7B222BF8529 /* Pods-jokesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokesTests.debug.xcconfig"; path = "Target Support Files/Pods-jokesTests/Pods-jokesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DEA9F8B7417ECEEB1E946AC0 /* Pods_jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DFB7525F0B68B412EB7AD4 /* Pods_jokesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jokesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75FA84232AD1CD42BA87FE9 /* Pods-jokesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokesUITests.release.xcconfig"; path = "Target Support Files/Pods-jokesUITests/Pods-jokesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FB46BEFD0E83AF3BB0D7F1E0 /* Pods-jokesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jokesUITests.debug.xcconfig"; path = "Target Support Files/Pods-jokesUITests/Pods-jokesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,11 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4C08E22B68836D0018A06D /* CoreAPIInterface.framework in Frameworks */,
-				BA4C08DC2B6881D90018A06D /* CoreAPI.framework in Frameworks */,
-				52F4C21FBFDE743F0F34B433 /* Pods_jokes.framework in Frameworks */,
-				BA93085A2B8525E800AA3D5E /* JokeGenerator.framework in Frameworks */,
-				BA93085D2B8525EC00AA3D5E /* JokeGeneratorInterface.framework in Frameworks */,
+				0AA67C935726F05848CB8AFA /* Pods_jokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F9B7699A11CA11F80640C2F /* Pods_jokesTests.framework in Frameworks */,
+				27188435940DD73F74CB0C3D /* Pods_jokesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403573C3D53F5B9D59928A08 /* Pods_jokesUITests.framework in Frameworks */,
+				60ECD0A57ED9D72E25209B33 /* Pods_jokesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +107,6 @@
 			children = (
 				311525BF8546626D338A9246 /* Pods-jokes.debug.xcconfig */,
 				4FDA477D1404FFB66B6E8DCD /* Pods-jokes.release.xcconfig */,
-				39113F6E40A49866CE73053B /* Pods-jokes-jokesUITests.debug.xcconfig */,
-				A5934A78879CD1030FE452A4 /* Pods-jokes-jokesUITests.release.xcconfig */,
 				C2D1B5E2CAEBE7B222BF8529 /* Pods-jokesTests.debug.xcconfig */,
 				980C51E152AE98D840A504D9 /* Pods-jokesTests.release.xcconfig */,
 				FB46BEFD0E83AF3BB0D7F1E0 /* Pods-jokesUITests.debug.xcconfig */,
@@ -144,15 +118,9 @@
 		99E7BFC57522065A491E6863 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA93085C2B8525EC00AA3D5E /* JokeGeneratorInterface.framework */,
-				BA9308592B8525E800AA3D5E /* JokeGenerator.framework */,
-				BA72D79B2B85235100AB0147 /* JokeGenerator.framework */,
-				BA72D79C2B85235100AB0147 /* JokeGeneratorInterface.framework */,
-				BA4C08E12B68836D0018A06D /* CoreAPIInterface.framework */,
-				BA4C08DB2B6881D90018A06D /* CoreAPI.framework */,
-				DEA9F8B7417ECEEB1E946AC0 /* Pods_jokes.framework */,
-				1181440FB2743565EFD6274A /* Pods_jokesTests.framework */,
-				A7A84CA9511AAA0E90B52E0A /* Pods_jokesUITests.framework */,
+				5735A27D8857F85AF05AEF7E /* Pods_jokes.framework */,
+				6FDAD7F3CB6180AD639333E2 /* Pods_jokesTests.framework */,
+				E3DFB7525F0B68B412EB7AD4 /* Pods_jokesUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

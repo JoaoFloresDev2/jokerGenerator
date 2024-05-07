@@ -6,10 +6,10 @@
 //
 
 import UIKit
-import JokeGenerator
-import JokeGeneratorInterface
-import CoreAPI
-import CoreAPIInterface
+//import JokeGenerator
+//import JokeGeneratorInterface
+//import CoreAPI
+//import CoreAPIInterface
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -20,47 +20,46 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         window = UIWindow(windowScene: windowScene)
-        let baseDependencie = BaseDependencieInjector(api: APIFactory(), homeFactory: HomeFactory())
-        let controller = BaseController(dependencie: baseDependencie)
+        let controller = UIViewController()
+        controller.view.backgroundColor = .red
         window?.rootViewController = controller
         window?.makeKeyAndVisible()
     }
 
-    public typealias Dependencies = HasHomeJoke & HasCoreApi
-    public class BaseDependencieInjector: Dependencies {
-        public var homeFactory: HomeJokeFactoring
-        public var api: APIFactoring
+//    public class BaseDependencieInjector: Dependencies {
+//        public var homeFactory: HomeJokeFactoring
+//        public var api: APIFactoring
+//
+//        public init(api: APIFactoring, homeFactory: HomeJokeFactoring) {
+//            self.api = api
+//            self.homeFactory = homeFactory
+//        }
+//    }
 
-        public init(api: APIFactoring, homeFactory: HomeJokeFactoring) {
-            self.api = api
-            self.homeFactory = homeFactory
-        }
-    }
-
-    class BaseController: UIViewController {
-        typealias Dependencies = HasHomeJoke & HasCoreApi
-        
-        private let dependencie: Dependencies
-        
-        init(dependencie: Dependencies) {
-            self.dependencie = dependencie
-            super.init(nibName: nil, bundle: nil)
-            view.backgroundColor = .red
-        }
-        
-        override func viewDidLoad() {
-            view.backgroundColor = .blue
-        }
-        
-        override func viewDidAppear(_ animated: Bool) {
-            let controller = dependencie.homeFactory.make(dependencieInjector: dependencie)
-            present(controller, animated: true)
-        }
-        
-        required init?(coder: NSCoder) {
-            fatalError("init(coder:) has not been implemented")
-        }
-    }
+//    class BaseController: UIViewController {
+//        typealias Dependencies = HasHomeJoke & HasCoreApi
+//        
+//        private let dependencie: Dependencies
+//        
+//        init(dependencie: Dependencies) {
+//            self.dependencie = dependencie
+//            super.init(nibName: nil, bundle: nil)
+//            view.backgroundColor = .red
+//        }
+//        
+//        override func viewDidLoad() {
+//            view.backgroundColor = .blue
+//        }
+//        
+//        override func viewDidAppear(_ animated: Bool) {
+//            let controller = dependencie.homeFactory.make(dependencieInjector: dependencie)
+//            present(controller, animated: true)
+//        }
+//        
+//        required init?(coder: NSCoder) {
+//            fatalError("init(coder:) has not been implemented")
+//        }
+//    }
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

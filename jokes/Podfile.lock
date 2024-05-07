@@ -1,38 +1,16 @@
 PODS:
-  - CoreAPI (0.0.1)
-  - CoreAPIInterface (0.0.1)
-  - JokeGenerator (0.0.1)
-  - JokeGeneratorInterface (0.0.1)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
-  - CoreAPI (from `Libs/CoreAPI`)
-  - CoreAPIInterface (from `Libs/CoreAPIInterface`)
-  - JokeGenerator (from `Libs/JokeGenerator`)
-  - JokeGeneratorInterface (from `Libs/JokeGeneratorInterface`)
   - SnapKit
 
 SPEC REPOS:
   trunk:
     - SnapKit
 
-EXTERNAL SOURCES:
-  CoreAPI:
-    :path: Libs/CoreAPI
-  CoreAPIInterface:
-    :path: Libs/CoreAPIInterface
-  JokeGenerator:
-    :path: Libs/JokeGenerator
-  JokeGeneratorInterface:
-    :path: Libs/JokeGeneratorInterface
-
 SPEC CHECKSUMS:
-  CoreAPI: 5d425ab1f84a4d7fe5def8bfadd978f9b6008a80
-  CoreAPIInterface: dc4a2eeb8c5d9ec26770e342849de574dadea338
-  JokeGenerator: 93c8ed9bfc4a392198c255744f6d1fbbc3de2297
-  JokeGeneratorInterface: 5dc481e2f935266cfef123a398ce9afc5de30aaa
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 100b31263207a97acd557bf7e67704c2fae91aec
+PODFILE CHECKSUM: eab46bf2c3a60f942387fae66f9570bed0019828
 
 COCOAPODS: 1.14.0
